@@ -1,6 +1,6 @@
 {
     "main": ".open-next/worker.js",
-    "name": "my-app",
+    "name": "nextjs-dashboard",
     "compatibility_date": "2025-03-25",
     "compatibility_flags": [
         "nodejs_compat"
@@ -8,5 +8,11 @@
     "assets": {
         "directory": ".open-next/assets",
         "binding": "ASSETS"
-    }
+    },
+    "routes": [
+        {
+            "pattern": "nextjs.hoangi19.id.vn",
+            "custom_domain": true
+        }
+    ]
 }
